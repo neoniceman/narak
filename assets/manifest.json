@@ -1,0 +1,160 @@
+{
+  "backgrounds": {
+    "bg_entrance": "assets/backgrounds/bg_entrance.png",
+    "bg_cave": "assets/backgrounds/bg_cave.png",
+    "bg_ruins": "assets/backgrounds/bg_ruins.png",
+    "bg_volcanic": "assets/backgrounds/bg_volcanic.png",
+    "bg_temple": "assets/backgrounds/bg_temple.png",
+    "bg_abyss": "assets/backgrounds/bg_abyss.png"
+  },
+  "heroes": {
+    "warrior": {
+      "type": "sheet",
+      "frameHeight": 128,
+      "animations": {
+        "idle": "assets/characters/warrior/sheets/Idle.png",
+        "walk": "assets/characters/warrior/sheets/Walk.png",
+        "attack": "assets/characters/warrior/sheets/Attack_1.png",
+        "hurt": "assets/characters/warrior/sheets/Hurt.png",
+        "dead": "assets/characters/warrior/sheets/Dead.png"
+      },
+      "visual": {
+        "x": 40,
+        "y": 55,
+        "w": 49,
+        "h": 73
+      },
+      "displayScale": 3
+    },
+    "mage": {
+      "type": "sheet",
+      "frameHeight": 128,
+      "animations": {
+        "idle": "assets/characters/mage/sheets/Idle.png",
+        "walk": "assets/characters/mage/sheets/Walk.png",
+        "attack": "assets/characters/mage/sheets/Attack_1.png",
+        "hurt": "assets/characters/mage/sheets/Hurt.png",
+        "dead": "assets/characters/mage/sheets/Dead.png"
+      },
+      "visual": {
+        "x": 41,
+        "y": 52,
+        "w": 47,
+        "h": 76
+      },
+      "displayScale": 3
+    },
+    "archer": {
+      "type": "sheet",
+      "frameHeight": 128,
+      "animations": {
+        "idle": "assets/characters/archer/sheets/Idle.png",
+        "walk": "assets/characters/archer/sheets/Walk.png",
+        "attack": "assets/characters/archer/sheets/Attack_1.png",
+        "hurt": "assets/characters/archer/sheets/Hurt.png",
+        "dead": "assets/characters/archer/sheets/Dead.png"
+      },
+      "visual": {
+        "x": 21,
+        "y": 54,
+        "w": 64,
+        "h": 74
+      },
+      "displayScale": 3
+    }
+  },
+  "monsters": {
+    "brute": {
+      "type": "sheet",
+      "frameHeight": 128,
+      "animations": {
+        "dead": "assets/monsters/brute/Dead.png",
+        "hurt": "assets/monsters/brute/Hurt.png",
+        "idle": "assets/monsters/brute/Idle.png"
+      },
+      "visual": {
+        "x": 42,
+        "y": 49,
+        "w": 47,
+        "h": 79
+      },
+      "displayScale": 4
+    },
+    "caster": {
+      "type": "sheet",
+      "frameHeight": 128,
+      "animations": {
+        "dead": "assets/monsters/caster/Dead.png",
+        "hurt": "assets/monsters/caster/Hurt.png",
+        "idle": "assets/monsters/caster/Idle.png"
+      },
+      "visual": {
+        "x": 19,
+        "y": 43,
+        "w": 65,
+        "h": 85
+      },
+      "displayScale": 4
+    },
+    "eye": {
+      "type": "sheet",
+      "frameHeight": 64,
+      "animations": {
+        "death": "assets/monsters/eye/Death.png",
+        "hurt": "assets/monsters/eye/Hurt.png",
+        "idle": "assets/monsters/eye/Idle.png"
+      },
+      "visual": {
+        "x": 11,
+        "y": 9,
+        "w": 41,
+        "h": 52
+      },
+      "displayScale": 6
+    },
+    "swarm": {
+      "type": "sheet",
+      "frameHeight": 64,
+      "animations": {
+        "death": "assets/monsters/swarm/Death.png",
+        "hurt": "assets/monsters/swarm/Hurt.png",
+        "idle": "assets/monsters/swarm/Idle.png"
+      },
+      "visual": {
+        "x": 13,
+        "y": 18,
+        "w": 36,
+        "h": 28
+      },
+      "displayScale": 6
+    },
+    "wraith": {
+      "type": "sheet",
+      "frameHeight": 64,
+      "animations": {
+        "idle": "assets/monsters/wraith/Idle.png"
+      },
+      "visual": {
+        "x": 13,
+        "y": 13,
+        "w": 38,
+        "h": 38
+      },
+      "displayScale": 6
+    },
+    "lancer": {
+      "type": "sheet",
+      "frameHeight": 64,
+      "animations": {
+        "idle": "assets/monsters/lancer/Idle.png"
+      },
+      "visual": {
+        "x": 9,
+        "y": 11,
+        "w": 44,
+        "h": 42
+      },
+      "displayScale": 6
+    }
+  }
+}
